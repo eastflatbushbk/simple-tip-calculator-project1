@@ -20,3 +20,11 @@ increment.addEventListener('click', function () {
    // bill.textContent = number--;
   }
   });
+  const form = document.querySelector('form')
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  
+  result();
+  
+  })
