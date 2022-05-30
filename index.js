@@ -41,5 +41,6 @@ form.addEventListener('submit', (e) => {
   // let tip = selectElement.options[selectElement.selectedIndex].value;
   const tipTotal = totalBill * (tip/100)
   console.log(totalBill)
-  
+  const finalBill = totalBill + tipTotal;
+
   }
