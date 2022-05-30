@@ -43,5 +43,7 @@ form.addEventListener('submit', (e) => {
   console.log(totalBill)
   const finalBill = totalBill + tipTotal;
   console.log(finalBill)
-
+  let p = document.createElement('p');
+  p.textContent = `The tip amount is $ ${tipTotal} and the total bill with tip is $ ${finalBill} `;
+  document.querySelector('#list').appendChild(p);
   }
