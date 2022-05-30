@@ -24,7 +24,7 @@ increment.addEventListener('click', function () {
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  
+  document.querySelector('#list').innerHTML = ''
   result();
   
   })
@@ -34,7 +34,7 @@ form.addEventListener('submit', (e) => {
     let selectElement = document.getElementById("tippercentage");
     let as = document.forms[0].tippercentage.value;
     let tip = selectElement.options[selectElement.selectedIndex].value;
-     alert("hello");
+     
      console.log(totalBill);
     console.log(as , tip)
     //output = selectElement.value;
@@ -43,7 +43,29 @@ form.addEventListener('submit', (e) => {
   console.log(totalBill)
   const finalBill = totalBill + tipTotal;
   console.log(finalBill)
-  let p = document.createElement('p');
-  p.textContent = `The tip amount is $ ${tipTotal} and the total bill with tip is $ ${finalBill} `;
-  document.querySelector('#list').appendChild(p);
+  //$("p").remove();
+  //displayResult()
+  let displayResult = document.createElement('p');
+ // p.textContent = `The tip amount is $ ${tipTotal} and the total bill with tip is $ ${finalBill} `;
+ // document.querySelector('#list').appendChild(p);
+
+  displayResult.textContent = `The tip amount is $ ${tipTotal} and the total bill with tip is $ ${finalBill} `
+  document.querySelector('#list').appendChild(displayResult)
+
+
+  alert("hello");
+ // console.log(document.querySelector('p'))
   }
+
+ //function displayResult() {
+ //     if (p != undefined ){
+ ///         alert("hello")
+///$(p).remove()
+//return
+ //     }
+ //     else {
+  //       return
+//      }
+      
+//    }
+
