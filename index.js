@@ -35,5 +35,9 @@ form.addEventListener('submit', (e) => {
     let as = document.forms[0].tippercentage.value;
     let tip = selectElement.options[selectElement.selectedIndex].value;
      alert("hello");
+     console.log(totalBill);
+    console.log(as , tip)
+    //output = selectElement.value;
+  // let tip = selectElement.options[selectElement.selectedIndex].value;
 
   }
