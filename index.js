@@ -48,13 +48,12 @@ form.addEventListener('submit', (e) => {
   let displayResult = document.createElement('p');
  // p.textContent = `The tip amount is $ ${tipTotal} and the total bill with tip is $ ${finalBill} `;
  // document.querySelector('#list').appendChild(p);
+ displayResult.textContent = `The tip amount is $ ${tipTotal} and the total bill with tip is $ ${finalBill} `
+ document.querySelector('#list').appendChild(displayResult)
 
-  displayResult.textContent = `The tip amount is $ ${tipTotal} and the total bill with tip is $ ${finalBill} `
-  document.querySelector('#list').appendChild(displayResult)
 
-
-  alert("hello");
- // console.log(document.querySelector('p'))
+ // alert("hello");
+  console.log(document.querySelector('p'))
   }
 
  //function displayResult() {
