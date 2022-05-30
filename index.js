@@ -42,5 +42,6 @@ form.addEventListener('submit', (e) => {
   const tipTotal = totalBill * (tip/100)
   console.log(totalBill)
   const finalBill = totalBill + tipTotal;
+  console.log(finalBill)
 
   }
