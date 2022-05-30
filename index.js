@@ -11,5 +11,12 @@ increment.addEventListener('click', function () {
     //bill.textContent = number++;
   });
   decrement.addEventListener('click', function () {
-    counterEl.textContent = number--;
+    if(bill.innerHTML <= 0) {
+      decrement.disabled = true
+    }
+    else{
+      let someNum = parseInt(bill.innerHTML);
+      bill.innerHTML = someNum - 1;
+   // bill.textContent = number--;
+  }
   });
