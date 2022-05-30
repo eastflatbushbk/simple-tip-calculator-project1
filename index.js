@@ -55,16 +55,3 @@ form.addEventListener('submit', (e) => {
  // alert("hello");
   console.log(document.querySelector('p'))
   }
-
- //function displayResult() {
- //     if (p != undefined ){
- ///         alert("hello")
-///$(p).remove()
-//return
- //     }
- //     else {
-  //       return
-//      }
-      
-//    }
-
