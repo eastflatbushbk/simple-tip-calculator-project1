@@ -28,3 +28,8 @@ form.addEventListener('submit', (e) => {
   result();
   
   })
+  function result (){
+    const totalBillStr = bill.innerHTML;
+    const totalBill = +totalBillStr ;
+
+  }
