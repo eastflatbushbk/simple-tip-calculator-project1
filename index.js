@@ -33,12 +33,11 @@ form.addEventListener('submit', (e) => {
     const totalBillStr = bill.innerHTML;
     const totalBill = +totalBillStr ;
     let selectElement = document.getElementById("tippercentage");
-   // let as = document.forms[0].tippercentage.value;
+   
     let tip = selectElement.options[selectElement.selectedIndex].value;
      
      
-   // console.log(as , tip)
-    
+   
   const tipTotal = totalBill * (tip/100)
   
   const finalBill = totalBill + tipTotal;
