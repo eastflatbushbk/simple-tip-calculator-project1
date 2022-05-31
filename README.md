@@ -11,4 +11,3 @@ this small project is inspired by the things i've learned so far during this cur
 Git clone the repository by clicking on the green square on the right hand side of the page.
 open index.html on your browser
 
-## Usage
