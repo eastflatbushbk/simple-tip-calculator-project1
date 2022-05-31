@@ -1,8 +1,7 @@
 # Simple tip calculator
 <div allign="center">
-<img src="https://giphy.com/gifs/maths-sums-addition-l4Jz19hgVBnCCM8uY"/>
+<img src="https://giphy.com/embed/l4Jz19hgVBnCCM8uY"/>
 </div>
-
 
 Simple tip calculator estimates the tip amount with tip percentage .it features the ability to choose the percentage of tip. Tip percentages are between 5% to 75% .
 • Choose from one of the preset tip percentages • increment or decrement the amount of the bill • See the tip amount • See the total bill with tip amount • 
