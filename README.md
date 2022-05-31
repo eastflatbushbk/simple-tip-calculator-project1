@@ -1,7 +1,7 @@
 # Simple tip calculator
-<div align="center">
-<iframe src="https://giphy.com/embed/l4Jz19hgVBnCCM8uY" width="480" height="415" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/maths-sums-addition-l4Jz19hgVBnCCM8uY">via GIPHY</a></p>
- </div>
+<div allign="center">
+<img src="https://giphy.com/gifs/maths-sums-addition-l4Jz19hgVBnCCM8uY"/>
+</div>
 
 
 Simple tip calculator estimates the tip amount with tip percentage .it features the ability to choose the percentage of tip. Tip percentages are between 5% to 75% .
