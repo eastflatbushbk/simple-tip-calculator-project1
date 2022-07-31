@@ -1,4 +1,3 @@
-
 const increment = document.getElementById('plus');
 const decrement = document.getElementById('minus')
 let bill = document.getElementById('totalbill');
@@ -92,7 +91,7 @@ const saveCalculation = async (data) =>{
 
 
   const saveDate = Date()
-  console.log(Date())
+  
   console.log(saveDate)
 
   fetch ( (baseUrl + '/calculations'),{
@@ -123,9 +122,3 @@ resultColor.onmouseleave = function() {
   this.style.backgroundColor = '';
 }
 }
-
-
-
-
-
-
