@@ -259,6 +259,11 @@
       "date": "\"Sun Jul 31 2022 13:16:08 GMT-0400 (Eastern Daylight Time)\"",
       "result": "bill amount:$ 74  , tip percentage: 30 %,tip amount:$ 22.2 ,total amount:$ 96.2 ",
       "id": 52
+    },
+    {
+      "date": "Sun Jul 31 2022 13:29:06 GMT-0400 (Eastern Daylight Time)",
+      "result": "bill amount:$ 40  , tip percentage: 20 %,tip amount:$ 8 ,total amount:$ 48 ",
+      "id": 53
     }
   ]
 }
