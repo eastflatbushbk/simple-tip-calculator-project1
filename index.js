@@ -75,7 +75,7 @@ const loadCalculations = async () => {
  console.log(sortedRecent5)
  //let recent5 = descendingOrder.slice((descendingOrder.lenght-5), descendingOrder.lenght)
  
- //appendData(sortedRecent5)
+ appendData(sortedRecent5)
  }
  
  function appendData(data) {

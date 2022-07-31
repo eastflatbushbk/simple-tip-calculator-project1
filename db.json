@@ -234,6 +234,31 @@
       "date": "Wed Jul 27 2022 11:00:03 GMT-0400 (Eastern Daylight Time)",
       "result": "bill amount:$ 35  , tip percentage: 5 %,tip amount:$ 1.75 ,total amount:$ 36.75 ",
       "id": 47
+    },
+    {
+      "date": "\"Sun Jul 31 2022 13:12:11 GMT-0400 (Eastern Daylight Time)\"",
+      "result": "bill amount:$ 39  , tip percentage: 15 %,tip amount:$ 5.85 ,total amount:$ 44.85 ",
+      "id": 48
+    },
+    {
+      "date": "\"Sun Jul 31 2022 13:12:49 GMT-0400 (Eastern Daylight Time)\"",
+      "result": "bill amount:$ 72  , tip percentage: 20 %,tip amount:$ 14.4 ,total amount:$ 86.4 ",
+      "id": 49
+    },
+    {
+      "date": "\"Sun Jul 31 2022 13:15:24 GMT-0400 (Eastern Daylight Time)\"",
+      "result": "bill amount:$ 29  , tip percentage: 5 %,tip amount:$ 1.4500000000000002 ,total amount:$ 30.45 ",
+      "id": 50
+    },
+    {
+      "date": "\"Sun Jul 31 2022 13:15:48 GMT-0400 (Eastern Daylight Time)\"",
+      "result": "bill amount:$ 59  , tip percentage: 15 %,tip amount:$ 8.85 ,total amount:$ 67.85 ",
+      "id": 51
+    },
+    {
+      "date": "\"Sun Jul 31 2022 13:16:08 GMT-0400 (Eastern Daylight Time)\"",
+      "result": "bill amount:$ 74  , tip percentage: 30 %,tip amount:$ 22.2 ,total amount:$ 96.2 ",
+      "id": 52
     }
   ]
 }
