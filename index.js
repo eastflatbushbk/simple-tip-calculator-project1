@@ -50,6 +50,15 @@ form.addEventListener('submit', (e) => {
  displayResult.textContent = `The tip amount is $ ${tipTotal} and the total bill with tip is $ ${finalBill} `
  document.querySelector('#list').appendChild(displayResult)
 
+ const saveResult = `bill amount:$ ${totalBill}  , tip percentage: ${tip} %,tip amount:$ ${tipTotal} ,total amount:$ ${finalBill} `
+ const jsonData = JSON.stringify(saveResult)
+ 
+  console.log(saveResult)
+ console.log(jsonData)
+ 
+ //console.log(finalBill)
+ saveCalculation (saveResult) ;
+   
  
 
 
@@ -83,7 +92,29 @@ const loadCalculations = async () => {
   })
 }
 
- 
+const saveCalculation = async (data) =>{
+
+
+  const saveDate = JSON.stringify(Date())
+  console.log(Date())
+  console.log(saveDate)
+
+  fetch ( (baseUrl + '/calculations'),{
+    method: 'POST',
+   headers: {
+      "Content-Type": "application/json",
+     },
+        body: JSON.stringify({
+          date : saveDate,
+          result: data
+        })
+  })
+  .then(resp => resp.json())
+  .then(json => console.log(json))
+  .catch( error => console.log(error))
+
+}
+
 
 
 
