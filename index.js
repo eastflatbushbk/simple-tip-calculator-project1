@@ -86,7 +86,12 @@ const loadCalculations = async () => {
       const li = document.createElement("li");
       //console.log(data)
       li.innerHTML =  data.result ;
-     
+      li.onmouseover = function() {
+        this.style.backgroundColor = 'lightblue';
+      }
+      li.onmouseleave = function() {
+        this.style.backgroundColor = '';
+      }
       mainContainer.appendChild(li);
    
   })
@@ -115,6 +120,18 @@ const saveCalculation = async (data) =>{
 
 }
 
+const resultColor = document.getElementById('list');
+resultColor.addEventListener("mouseover", colorList() ) 
+
+function colorList(){
+
+resultColor.onmouseover = function() {
+  this.style.backgroundColor = 'yellow';
+}
+resultColor.onmouseleave = function() {
+  this.style.backgroundColor = '';
+}
+}
 
 
 
