@@ -8,6 +8,8 @@ The Simple tip calculator let's restaurant goers ,nail salon & barber shop patro
 ## Installation
 
 -Git clone the repository by clicking on the green square on the right hand side of the page.
+
 -type this command in terminal : json-server --watch db.json 
+
 -open index.html on your browser
 
