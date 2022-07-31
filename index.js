@@ -51,16 +51,7 @@ form.addEventListener('submit', (e) => {
  document.querySelector('#list').appendChild(displayResult)
 
  const saveResult = `bill amount:$ ${totalBill}  , tip percentage: ${tip} %,tip amount:$ ${tipTotal} ,total amount:$ ${finalBill} `
- const jsonData = JSON.stringify(saveResult)
- 
-  console.log(saveResult)
- console.log(jsonData)
- 
- //console.log(finalBill)
  saveCalculation (saveResult) ;
-   
- 
-
 
 }
 
@@ -73,7 +64,7 @@ const loadCalculations = async () => {
  console.log(recent5)
  let sortedRecent5 = recent5.sort ( function(a, b) {return b.id-a.id} )
  console.log(sortedRecent5)
- //let recent5 = descendingOrder.slice((descendingOrder.lenght-5), descendingOrder.lenght)
+ 
  
  appendData(sortedRecent5)
  }
@@ -81,10 +72,10 @@ const loadCalculations = async () => {
  function appendData(data) {
   const mainContainer = document.getElementById("prior-list");
 
-  //for (let i = 0; i < data.length; i++) {
+  
    data.forEach((data) => { 
       const li = document.createElement("li");
-      //console.log(data)
+      
       li.innerHTML =  data.result ;
       li.onmouseover = function() {
         this.style.backgroundColor = 'lightblue';
@@ -100,7 +91,7 @@ const loadCalculations = async () => {
 const saveCalculation = async (data) =>{
 
 
-  const saveDate = JSON.stringify(Date())
+  const saveDate = Date()
   console.log(Date())
   console.log(saveDate)
 
