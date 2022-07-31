@@ -27,6 +27,7 @@ decrement.addEventListener('click', function () {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   document.querySelector('#list').innerHTML = ''
+  document.querySelector('#prior-list').innerHTML = ''
   loadCalculations();
   result();
  
@@ -68,7 +69,19 @@ const loadCalculations = async () => {
  //appendData(sortedRecent5)
  }
  
+ function appendData(data) {
+  const mainContainer = document.getElementById("prior-list");
 
+  //for (let i = 0; i < data.length; i++) {
+   data.forEach((data) => { 
+      const li = document.createElement("li");
+      //console.log(data)
+      li.innerHTML =  data.result ;
+     
+      mainContainer.appendChild(li);
+   
+  })
+}
 
  
 
